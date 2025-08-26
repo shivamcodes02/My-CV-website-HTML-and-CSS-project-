@@ -1,0 +1,253 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: rgb(236, 236, 236);
+}
+.top-box {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-top: 90px;
+}
+.header-box {
+  display: flex;
+  flex-direction: row;
+}
+
+.Company-name-box {
+  display: flex;
+  align-items: baseline;
+  padding-top: 15px;
+  padding-left: 50px;
+}
+.circle {
+  background-color: #ffaf01;
+  border: none;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+.Company-name {
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 22px;
+  padding-left: 13px;
+  cursor: pointer;
+}
+.Data {
+  padding-left: 12px;
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.info {
+  display: flex;
+  font-family: Work Sans;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  font-weight: 300;
+  padding-right: 30px;
+}
+.boxes {
+  padding-right: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.boxes:hover {
+  text-decoration: underline;
+  color: rgb(140, 140, 152);
+}
+.stick-between {
+  font-size: larger;
+}
+.image {
+  height: 480px;
+  width: 480px;
+  object-fit: cover;
+  border-radius: 240px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.9);
+}
+.center-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.image-box {
+  display: flex;
+  margin-top: 150px;
+  margin-left: 270px;
+  align-items: center;
+}
+.information {
+  margin-left: 50px;
+}
+.Hello {
+  font-size: 100px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  font-family: Work Sans;
+}
+.about-me {
+  font-size: 20px;
+  font-family: Work Sans;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.text {
+  font-size: 15px;
+  font-family: Work Sans;
+  color: rgb(55, 54, 54);
+  width: 450px;
+  line-height: 25px;
+}
+.button1,
+.button2,
+.button3 {
+  height: 140px;
+  width: 140px;
+  margin-top: 40px;
+  border-radius: 70px;
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border-width: 1px;
+  border-style: solid;
+  transition: 0.1s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: rgb(238, 163, 2);
+}
+.button2 {
+  background-color: rgb(255, 59, 37);
+}
+.button3 {
+  background-color: rgb(128, 216, 218);
+}
+.button1:hover,
+.button2:hover,
+.button3:hover {
+  background-color: rgb(224, 218, 218);
+  height: 145px;
+  width: 145px;
+  border-width: 2px;
+  color: rgb(134, 172, 9);
+}
+.header {
+  background-color: white;
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+.left-section {
+  margin-left: 43px;
+  font-size: 20px;
+  font-family: Work Sans;
+  display: flex;
+}
+.cv-website-logo {
+  font-family: Work sans;
+  color: gray;
+  cursor: pointer;
+}
+.hamburger-menu {
+  height: 24px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.middle-section {
+  display: flex;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+  color: rgb(137, 103, 103);
+  font-weight: 100;
+  margin-right: 920px;
+  text-decoration: underline;
+  margin-top: 30px;
+}
+.right-section {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+}
+.read-more-button {
+  font-family: Work sans;
+  font-weight: 300;
+  font-size: 14px;
+  text-decoration: underline;
+  cursor: pointer;
+  padding-right: 0;
+  margin-right: 0;
+}
+.Arrow {
+  margin-left: 0;
+  padding-left: 0;
+  cursor: pointer;
+}
+.mac-image-box {
+  display: flex;
+  align-items: center;
+}
+.mac-image {
+  border-radius: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 20px;
+  height: 24px;
+  width: 24px;
+  background-color: rgb(231, 227, 221);
+  cursor: pointer;
+}
+hr {
+  border: none;
+  height: 1px;
+  background-color: rgb(162, 161, 161);
+  margin-top: 200px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.bottom-box {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  margin-right: 100px;
+  margin-left: 60px;
+  line-height: 25px;
+}
+.bottom-box1-top {
+  font-weight: bold;
+  font-family: Arial;
+  font-size: 18px;
+}
+.bottom-box1-bottom,
+.bottom-box2-bottom {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+.bottom-box2-bottom {
+  cursor: pointer;
+}
+.bottom-box4 {
+  margin-top: 8px;
+}
+.bottom-box4-top {
+  font-size: 12px;
+  line-height: 17px;
+}
+.linkedin-bottom-logo {
+  height: 25px;
+  cursor: pointer;
+  margin-right: 8px;
+}
